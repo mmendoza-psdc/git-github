@@ -8,14 +8,15 @@ Los proyectos son los siguientes:
 
 ¿Estás aquí para crear un Issue o un Pull Request? ¡Puedes agregar tu participación en nuesta lista de contribuidores! Ve a este documento y agrega tus datos por medio de un PR.
 
-## lista de alias para usar en un .zshrc 
+## lista de ALIAS para usar en un .zshrc 
 ```
 # Git
 alias gs='git status'
 alias ga='git add'
 alias gadd='git add .'
 alias gc='git commit -m'
-alias gp='git push'
+alias gpush='git push'
+alias gpull='git pull'
 alias glog='git log --oneline --graph --decorate --all'
 alias superlog='git superlog'
 alias gco='git checkout'
