@@ -24,3 +24,8 @@ def get_superheroes_marvel():
 def get_warriors_lotr():
     rows = ["Frodo", "Sam", "Gandalf", "Aragorn", "Legolas", "Gimli", "Boromir", "Gollum"]
     return rows
+
+@app.get("/warriorsGOT")
+def get_warriors_got():
+    rows = ["Jon Snow", "Daenerys Targaryen", "Arya Stark", "Tyrion Lannister", "Cersei Lannister", "Jaime Lannister", "Bran Stark", "Sansa Stark"]
+    return rows
