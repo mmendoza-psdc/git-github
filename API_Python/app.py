@@ -20,7 +20,12 @@ def get_superheroes_marvel():
     rows = ["Spider-Man", "Iron Man", "Thor", "Hulk", "Black Widow", "Doctor Strange", "Black Panther", "Captain America"]
     return rows
 
-@app.get("/warriorsLOTR")
-def get_warriors_lotr():
-    rows = ["Frodo", "Sam", "Gandalf", "Aragorn", "Legolas", "Gimli", "Boromir", "Gollum"]
+@app.get("/LOTRWarriors")
+def get_lotr_warriors():
+    rows = ["Frodo", "Sam", "Gandalf", "Aragorn", "Legolas", "Gimli", "Boromir", "Gollum", "El anillo"]
+    return rows
+
+@app.get("/starwarsWarriors")
+def get_starwars_warriors():
+    rows = ['Obiwan', 'el pelón del sable morado', 'Darth Vader', 'El de la colita de caballo', 'Yoda']
     return rows
