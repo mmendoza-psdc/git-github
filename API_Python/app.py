@@ -19,3 +19,8 @@ def get_superheroes():
 def get_superheroes_marvel():
     rows = ["Spider-Man", "Iron Man", "Thor", "Hulk", "Black Widow", "Doctor Strange", "Black Panther", "Captain America"]
     return rows
+
+@app.get("/warriorsLOTR")
+def get_warriors_lotr():
+    rows = ["Frodo", "Sam", "Gandalf", "Aragorn", "Legolas", "Gimli", "Boromir", "Gollum"]
+    return rows
