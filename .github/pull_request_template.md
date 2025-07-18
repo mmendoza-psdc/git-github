@@ -21,5 +21,5 @@ Asegúrate de marcar las casillas que apliquen.
 Vincula cualquier ticket o issue relacionado con este Pull Request usando `#` seguido del número (ej. `Cierra #42`).
 
 ### Otros comentarios
-Si alguien tiene una duda, que hable ahora o calle para siempre. 😉
+Si alguien tiene una duda, que hable ahora o calle para siempre.
 
