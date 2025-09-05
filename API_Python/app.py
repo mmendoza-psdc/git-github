@@ -29,3 +29,8 @@ def get_lotr_warriors():
 def get_starwars_warriors():
     rows = ['Obiwan', 'el pelón del sable morado', 'Darth Vader', 'El de la colita de caballo', 'Yoda']
     return rows
+
+@app.get("/warriorsGOT")
+def get_warriors_got():
+    rows = ["Jon Snow", "Daenerys Targaryen", "Arya Stark", "Tyrion Lannister", "Cersei Lannister", "Jaime Lannister", "Bran Stark", "Sansa Stark"]
+    return rows
